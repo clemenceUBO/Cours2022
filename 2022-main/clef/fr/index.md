@@ -1,97 +1,66 @@
-# SimpleText@CLEF-2022 Home
+# SimpleText@CLEF-2022 Accueil
 
 ---
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) | 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
+[Accueil](./) | [Appel à contribution](./CFP) | [Dates importantes](./dates) | [Tâches](./tasks)  | [Outils](./tools)  
+[Programme](./program) | [Publications](./publications) | [Organisateurs](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
 <!--- <img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">https://simpletext-project.com/2022/clef/') --->
 
 ---
 
 <img align="left" src="https://github.com/simpletext-madics/2021/blob/main/clef/simpletext-logo-blue.png?raw=true" width="100"/>  
 
-## SimpleText: Automatic Simplification of Scientific Texts
+## SimpleText: Simplification automatique des textes scientifiques
 
 
-### Lab topic and goals
+### Sujet et objectifs du laboratoire
 
-SimpleText tackles technical challenges and evaluation challenges by providing appropriate data and benchmarks for text simplification. 
-<br/>We propose the following tasks: 
-* [TASK 1   What is in (or out)?](./task1)
-Select passages to include in a simplified summary, given a query
-* [TASK 2   What is unclear?](./task2)
-Given a passage and a query, rank terms/concepts that are required to be explained for understanding this passage (definitions, context, applications,..) 
-* [TASK 3   Rewrite this!](./task3)
-Given a query, simplify passages from scientific abstracts 
-* [UNSHARED TASK](./task4)
-We welcome any submission that uses our data!
+SimpleText s'attaque aux défis techniques et aux difficultés d'évaluation en fournissant des données et des repères appropriés pour la simplification des textes.
+<br/>Nous proposons les tâches suivantes :
+* [TÂCHE 1   Qu'est-ce qui est dedans (ou dehors) ?](./task1)
+Sélectionner les passages à inclure dans un résumé simplifié, à partir d'une requête.
+* [TÂCHE 2   Qu'est ce qui n'est pas clair ?](./task2)
+Étant donné un passage et une requête, classez les termes/concepts qui doivent être expliqués pour comprendre ce passage (définitions, contexte, applications,...). 
+* [TÂCHE 3   Ré-écrivez ceci !](./task3)
+En fonction d'une requête, simplifier des passages de résumés scientifiques. 
+* [TÂCHE NON PARTAGÉE](./task4)
+Toute proposition d'utilisation de nos données est la bienvenue !
 
+Pour faire face à ces défis, SimpleText vise à répondre aux questions de recherche suivantes :
+<br/>RQ1 - Quelle expression textuelle porteuse d'information doit être simplifiée (document et passage à inclure dans le résumé simplifié) ?
+<br/>RQ2 - Quel type d'information de base devrait être fourni (quels termes devraient être contextualisés en donnant une définition et/ou une application) ? Quelles informations sont les plus pertinentes ou les plus utiles ?
+<br/>RQ3 - Comment améliorer la lisibilité d'un texte court donné (par exemple en réduisant le vocabulaire et la complexité syntaxique) avec un taux acceptable de distorsion de l'information ?
 
-To face these challenges, SimpleText aims to answer the following research questions: 
-<br/>RQ1 — What textual expression carrying information should be simplified (document and passage to be included in the simplified summary)?
-<br/>RQ2 — What kind of background information should be provided (what terms should be contextualised giving a definition and/or application)? What information is the most relevant or helpful? 
-<br/>RQ3 — How to improve the readability of a given short text (e.g. by reducing vocabulary and syntactic complexity) with acceptable rate of information distortion? 
+### Importance pour le domaine et pertinence de CLEF
 
-### Significance for the field & Relevance to CLEF
+Avoir une culture scientifique est une aptitude importante pour les gens. C'est l'une des clés de l'esprit critique, de la prise de décision objective et du jugement de la validité et de la signification des résultats et des arguments, qui permet de discerner les faits de la fiction. Ainsi, posséder des connaissances scientifiques de base peut également contribuer à préserver sa santé, tant physiologique que mentale. La pandémie de COVID-19 en est un bon exemple. Comprendre le problème lui-même, connaître et appliquer les règles de distanciation sociale et les politiques sanitaires, choisir d'utiliser ou d'éviter tel ou tel traitement ou procédure de prévention peut devenir crucial. Dans le contexte d'une pandémie, l'information qualifiée et opportune doit atteindre tout le monde et être accessible. C'est ce qui motive des projets tels que [EasyCovid](https://easycovid19.org/).
 
-Being science literate is an important ability for people. It is one
-of the keys for critical thinking, objective decision-making and
-judgment of the validity and significance of findings and arguments,
-which allows discerning facts from fiction. Thus, having a basic
-scientific knowledge may also help maintain one’s health, both
-physiological and mental. The COVID-19 pandemic provides a good
-example of such a matter. Understanding the issue itself, being aware
-of and applying social distancing rules and sanitary policies,
-choosing to use or avoid particular treatment or prevention procedures
-can become crucial. In the context of a pandemic, the qualified and
-timely information should reach everyone and be accessible. That is
-what motivates projects such as [EasyCovid](https://easycovid19.org/).
-
-However, scientific texts are often hard to understand as they require
-solid background knowledge and use tricky terminology. Although there
-were some recent efforts on text simplification, removing
-such understanding barriers between scientific texts and general
-public in an automatic manner is still an open challenge. SimpleText
-Lab brings together researchers and practitioners working on the
-generation of simplified summaries of scientific texts. It is a new
-evaluation lab that follows up the [SimpleText-2021 Workshop](https://simpletext-project.com/2021/clef/en/). All
-perspectives on automatic science popularisation are welcome,
-including but not limited to: Natural Language Processing (NLP),
-Information Retrieval (IR), Linguistics, Scientific Journalism, etc.
+Cependant, les textes scientifiques sont souvent difficiles à comprendre car ils nécessitent de solides connaissances de base et utilisent une terminologie délicate. Bien que des efforts aient été faits récemment pour simplifier les textes, l'élimination automatique de ces barrières de compréhension entre les textes scientifiques et le grand public reste un défi à relever. SimpleText Lab rassemble des chercheurs et des praticiens travaillant sur la génération de résumés simplifiés de textes scientifiques. Il s'agit d'un nouveau laboratoire d'évaluation qui fait suite à [l'atelier SimpleText-2021 Workshop](https://simpletext-project.com/2021/clef/en/). Toutes les perspectives sur la vulgarisation scientifique automatique sont les bienvenues, y compris mais sans s'y limiter : Le traitement du langage naturel (NLP), la recherche d'information (IR), la linguistique, le journalisme scientifique, etc.
 
 ### Scenarios
 
-The goal is to create a simplified summary of multiple scientific
-documents based on a given query which provides the user with an
-instant simplified summary on a specific topic he/she is interested in
-or to generate a daily digest, for example for ArXiv.
+L'objectif est de créer un résumé simplifié de plusieurs documents scientifiques à partir d'une requête donnée, ce qui permet à l'utilisateur d'obtenir instantanément un résumé simplifié sur un sujet spécifique qui l'intéresse ou de générer un résumé quotidien, par exemple pour ArXiv.
 
-### Evaluation setup, metrics, and tasks 
+### Configuration, mesures et tâches de l'évaluation 
 
-Dataset: We use the [Citation Network
-Dataset](https://www.aminer.org/citation): DBLP+Citation, ACM Citation
-network. An elastic search index is provided to participants
-accessible through a GUI API. This Index is adequate to:
-<br/>•	Apply basic passage retrieval methods based on vector or language IR models
-<br/>•	Generate Latent Dirichlet Allocation models, 
-<br/>•	Train Graph Neural Networks for citation recommendation as carried out in [Stellar Graph](https://stellargraph.readthedocs.io/) for example,
-<br/>•	Apply deep bidirectionnal transformers for query expansion...
+Ensemble de données : Nous utilisons [l'ensemble de données du réseau de citations](https://www.aminer.org/citation) : DBLP+Citation, ACM Citation network. Un index de recherche élastique est fourni aux participants, accessible via une API GUI. Cet index est adéquat pour :
+- Appliquer des méthodes basiques de recherche de passage basées sur des modèles de RI vectoriels ou linguistiques.
+- Générer des modèles d'allocation de Dirichlet latents,
+- Entraîner des réseaux de neurones graphiques pour la recommandation de citations, comme c'est le cas dans Stellar Graph par exemple,
+- Appliquer des transformateurs bidirectionnels profonds pour l'expansion de requêtes...
 
-The data is two-fold: *Medecine* and *Computer Science*, two domains
-among the most popular in forums like
-[ELI5](https://www.reddit.com/r/explainlikeimfive/).
+Les données sont de deux ordres : La *médecine* et l'*informatique*, deux domaines parmi les plus populaires dans les forums comme [ELI5](https://www.reddit.com/r/explainlikeimfive/).
 
+Requêtes en anglais : Pour cette édition, les requêtes sont une sélection de titres de presse récents du Guardian enrichie de mots-clés extraits manuellement du contenu des articles. Il a été vérifié que chaque mot-clé permet d'extraire au moins 5 résumés pertinents. L'utilisation de ces mots-clés est facultative.
+<br/>Format d'entrée pour toutes les tâches :
+<br/>- Les sujets sont au format MD
+<br/>- Articles en texte intégral du Guardian (lien, dossier avec les textes intégraux au format MD)
+<br/>- Index ElasticSearch sur le serveur de données
+<br/>- vidage complet du DBLP au format JSON.GZ
+<br/>- Résumés DBLP extraits pour chaque sujet dans le format MD suivant (doc_id, année, résumé)
 
-English queries: For this edition queries are a selection of recent press titles from The Guardian enriched with keywords manually extracted from the content of the articles. It has been checked that each keyword allows to extract at least 5 relevant abstracts. The use of these keywords is optional. 
-<br/>Input format for all tasks:
-<br/>•	Topics are in the MD format
-<br/>•	Full text articles from The Guardian (link, folder with full texts in the MD format)
-<br/>•	ElasticSearch index on the data server
-<br/>•	DBLP full dump in the JSON.GZ format
-<br/>•	DBLP abstracts extracted for each topic in the following MD format (doc_id, year, abstract)
-
-## How to Cite
-If you extend or use this work, please cite the [paper](https://doi.org/10.1007/978-3-031-13643-6_28) where it was introduced:
+## Comment citer
+Si vous étendez ou utilisez ce travail, veuillez citer [l'article](https://doi.org/10.1007/978-3-031-13643-6_28) où il a été présenté :
 ```
 Liana Ermakova, Eric SanJuan, Jaap Kamps, Stéphane Huet, Irina Ovchinnikova, Diana Nurbakova, 
 Sílvia Araújo, Radia Hannachi, Elise Mathurin, and Patrice Bellot. 2022. 
@@ -100,9 +69,9 @@ In Experimental IR Meets Multilinguality, Multimodality, and Interaction: 13th I
 Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5–8, 2022, Proceedings. 
 Springer-Verlag, Berlin, Heidelberg, 470–494. https://doi.org/10.1007/978-3-031-13643-6_28
 ```
-[Paper](https://doi.org/10.1007/978-3-031-13643-6_28)
+[Article](https://doi.org/10.1007/978-3-031-13643-6_28)
 
-[Dowload .BIB](../../BibTeX/ermakova_overview_2022.bib)
+[Télécharger .BIB](../../BibTeX/ermakova_overview_2022.bib)
 
 ---
 
