@@ -2,21 +2,21 @@
 <p align="center">
 </p>
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
+[Accueil](./) | [Appel à contribution](./CFP) | [Dates importantes](./dates) | [Tâches](./tasks)  | [Outils](./tools)  
+[Programme](./program) | [Publications](./publications) | [Organisateurs](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
 
 
-<h2 align="center">SimpleText: Automatic Simplification of Scientific Texts</h2>
+<h2 align="center">SimpleText: Simplification automatique des textes scientifiques</h2>
 
-- [_Overview of the CLEF 2022 SimpleText Lab: Automatic Simplification of Scientific Texts_](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_28), Liana Ermakova, Patrice Bellot, Jaap Kamps, Diana Nurbakova, Irina Ovchinnikova, Eric SanJuan, Elise Mathurin, Radia Hannachi, Stéphane Huet, Silvia Araujo [BibTeX](../../BibTeX/ermakova_overview_2022.bib)
+- [_Aperçu de CLEF 2022 SimpleText Lab: Automatic Simplification of Scientific Texts_](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_28), Liana Ermakova, Patrice Bellot, Jaap Kamps, Diana Nurbakova, Irina Ovchinnikova, Eric SanJuan, Elise Mathurin, Radia Hannachi, Stéphane Huet, Silvia Araujo [BibTeX](../../BibTeX/ermakova_overview_2022.bib)
 
-- _Overview of the CLEF 2022 SimpleText_, «&nbsp;Task 1: Passage Selection for a Simplified Summary&nbsp;»  
+- _Aperçu de CLEF 2022 SimpleText_, «&nbsp;Task 1: Passage Selection for a Simplified Summary&nbsp;»  
 Eric Sanjuan, Stéphane Huet, Jaap Kamps, Liana Ermakova [URL](http://ceur-ws.org/Vol-3180/paper-235.pdf)
 
-- _Overview of the CLEF 2022 SimpleText_, «&nbsp;Task 2: Complexity Spotting in Scientific Abstracts&nbsp;»  
+- _Aperçu de CLEF 2022 SimpleText_, «&nbsp;Task 2: Complexity Spotting in Scientific Abstracts&nbsp;»  
 Liana Ermakova, Irina Ovchinnikov, Jaap Kamps, Diana Nurbakova, Silvia Araújo, Radia Hannachi [URL](http://ceur-ws.org/Vol-3180/paper-236.pdf)
 
-- _Overview of the CLEF 2022 SimpleText_, «&nbsp;Task 3: Query Biased Simplification of Scientific Texts&nbsp;»  
+- _Aperçu de CLEF 2022 SimpleText_, «&nbsp;Task 3: Query Biased Simplification of Scientific Texts&nbsp;»  
 Liana Ermakova, Irina Ovchinnikov, Jaap Kamps, Diana Nurbakova, Silvia Araújo, Radia Hannachi [URL](http://ceur-ws.org/Vol-3180/paper-237.pdf)
 
 - _Searching for explanation of difficult scientific terms_  
