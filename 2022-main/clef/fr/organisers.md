@@ -1,7 +1,7 @@
-# SimpleText@CLEF-2022 Organisers
+# SimpleText@CLEF-2022 Organisateurs
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) | 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
+[Accueil](./) | [Appel à contribution](./CFP) | [Dates importantes](./dates) | [Tâches](./tasks)  | [Outils](./tools)  
+[Programme](./program) | [Publications](./publications) | [Organisateurs](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
 
 ---
 
@@ -21,10 +21,10 @@
 
 [Diana Nurbakova](https://liris.cnrs.fr/page-membre/diana-nurbakova),  Institut National des Sciences Appliquées de Lyon, INSA, (Lyon, France)
 
-[Irina Ovchinnikova](https://scholar.google.com/citations?user=WYESafoAAAAJ&hl=en), Institute of Linguistics and Intercultural Communication, Sechenov University (Moscow, Russia)
+[Irina Ovchinnikova](https://scholar.google.com/citations?user=WYESafoAAAAJ&hl=en), Institute of Linguistics and Intercultural Communication, Sechenov University (Moscow, Russie)
 
 [Eric San-Juan](https://termwatch.es/), Laboratoire d’Informatique d’Avignon,Institut de technologie de Avignon (Avignon, France)
 
-[Albin Digue](https://www.linkedin.com/in/albin-digue-07b3b4197/) & [Julien Jouan](https://www.linkedin.com/in/julien-jouan-39b49721b/), in charge of website maintenance (Brest, France)
+[Albin Digue](https://www.linkedin.com/in/albin-digue-07b3b4197/) & [Julien Jouan](https://www.linkedin.com/in/julien-jouan-39b49721b/), chargé de la maintenance du site (Brest, France)
 
-More information are available on the [CLEF 2022 Website](https://clef2022.clef-initiative.eu/index.php)
+Plus d'information sur le [site CLEF 2022](https://clef2022.clef-initiative.eu/index.php)
