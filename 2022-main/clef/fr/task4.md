@@ -1,27 +1,27 @@
-# SimpleText@CLEF-2022 Pilot tasks
+# SimpleText@CLEF-2022 Tâches
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
+[Accueil](./) | [Appel à contribution](./CFP) | [Dates importantes](./dates) | [Tâches](./tasks)  | [Outils](./tools)  
+[Programme](./program) | [Publications](./publications) | [Organisateurs](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
 
-
----
-
-## SimpleText Pilot Task Guidelines
-
-We invite you to submit both automatic and manual runs! Manual intervention should be reported.
 
 ---
 
-<button>[Access](./tasks)</button> | <button>[Shared task 1](./task1)</button> | <button>[Shared task 2](./task2)</button> | <button>[Shared task 3](./task3)</button> | <button>[Unshared task 4](./task4)</button>
+## Directives pour les tâches SimpleText
+
+Nous vous invitons à soumettre aussi bien des interventions automatiques que manuelles ! Les interventions manuelles doivent être signalées.
+
+---
+
+<button>[Accès](./tasks)</button> | <button>[Tâche partagée 1](./task1)</button> | <button>[Tâche partagée 2](./task2)</button> | <button>[Tâche partagée 3](./task3)</button>| <button>[Tâche non partagée 4](./task4)</button>
 
 <br>
 
-## Unshared Task 4
+## Tâche non partagée 4
 
-We welcome any submission that uses our data! 
+Toute proposition d'utilisation de nos données est la bienvenue ! 
 
-## How to Cite
-If you extend or use this work, please cite the [paper](https://doi.org/10.1007/978-3-031-13643-6_28) where it was introduced:
+## Comment citer
+Si vous étendez ou utilisez ce travail, veuillez citer l'[article] (https://doi.org/10.1007/978-3-031-13643-6_28) où il a été présenté :
 ```
 Liana Ermakova, Eric SanJuan, Jaap Kamps, Stéphane Huet, Irina Ovchinnikova, Diana Nurbakova, 
 Sílvia Araújo, Radia Hannachi, Elise Mathurin, and Patrice Bellot. 2022. 
@@ -30,6 +30,6 @@ In Experimental IR Meets Multilinguality, Multimodality, and Interaction: 13th I
 Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5–8, 2022, Proceedings. 
 Springer-Verlag, Berlin, Heidelberg, 470–494. https://doi.org/10.1007/978-3-031-13643-6_28
 ```
-[Paper](https://doi.org/10.1007/978-3-031-13643-6_28)
+[Article](https://doi.org/10.1007/978-3-031-13643-6_28)
 
-[Dowload .BIB](../../BibTeX/ermakova_overview_2022.bib)
+[Télécharger .BIB](../../BibTeX/ermakova_overview_2022.bib)
