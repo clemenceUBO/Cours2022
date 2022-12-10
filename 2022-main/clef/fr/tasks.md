@@ -1,49 +1,50 @@
-# SimpleText@CLEF-2022 Shared tasks
+# SimpleText@CLEF-2022 Tâches
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
+[Accueil](./) | [Appel à contribution](./CFP) | [Dates importantes](./dates) | [Tâches](./tasks)  | [Outils](./tools)  
+[Programme](./program) | [Publications](./publications) | [Organisateurs](./organisers) | [Contact](./contact) | [CLEF-2023](https://simpletext-project.com/2023/clef)
 
----
-
-## SimpleText Shared Task Guidelines
-
-We invite you to submit both automatic and manual runs! Manual intervention should be reported.
 
 ---
 
-<button>[Access](./tasks)</button> | <button>[Shared task 1](./task1)</button> | <button>[Shared task 2](./task2)</button> | <button>[Shared task 3](./task3)</button>| <button>[Unshared task 4](./task4)</button>
+## Directives pour les tâches SimpleText
+
+Nous vous invitons à soumettre aussi bien des interventions automatiques que manuelles ! Les interventions manuelles doivent être signalées.
+
+---
+
+<button>[Accès](./tasks)</button> | <button>[Tâche partagée 1](./task1)</button> | <button>[Tâche partagée 2](./task2)</button> | <button>[Tâche partagée 3](./task3)</button>| <button>[Tâche non partagée 4](./task4)</button>
 
 <br>
 
-## Access
-Please register at the SimpleText@CLEF workshop in order to access the data: [https://clef2022.clef-initiative.eu/index.php](https://clef2022.clef-initiative.eu/index.php)  
-After registration, you will receive an email with information on how to get access to the data.
+## Accès
+Veuillez vous inscrire à l'atelier SimpleText@CLEF afin d'accéder aux données : [https://clef2022.clef-initiative.eu/index.php](https://clef2022.clef-initiative.eu/index.php)  
+Après l'inscription, vous recevrez un courriel contenant des informations sur la manière d'accéder aux données.
 
-### Result submission:
-Participants should put their run results into the folder Documents created for their user and **submit them by email** to *contact@simpletext-project.com*.
+### Soumission des résultats :
+Les participants doivent placer leurs résultats d'exécution dans le dossier Documents créé pour leur utilisateur et **soumettre les résultats par e-mail** à *contact@simpletext-project.com*.
 
-The email subject has to be in the format **\[CLEF TASK \<NUMBER\>\] TEAM_ID**. 
+L'objet de l'e-mail doit être au format **\[CLEF TASK \<NUMBER\>\] TEAM_ID**. 
 
-Runs should be submitted as a <ins>ZIP folder of the corresponding JSON files</ins>. Manual runs are allowed to be submitted in a CSV format with the TAB separator. 
+Les runs doivent être soumis sous forme de <ins>Dossier ZIP des fichiers JSON correspondants</ins>. Les runs manuels sont autorisés à être soumis dans un format CSV avec le séparateur TAB. 
 
-You can use this python3 script to check the output format. The script requires Python 3 and the Pandas library:
-[Download python output checker](../check_format.py)
+Vous pouvez utiliser ce script python3 pour vérifier le format de sortie. Ce script nécessite Python 3 et la bibliothèque Pandas :
+[Télécharger python output checker](../check_format.py)
 
-A confirmation email will be sent within 2 days after the submission deadline. 
+Un courriel de confirmation sera envoyé dans les deux jours suivant la date limite de soumission. 
 
-### Terms of Use
+### Conditions d'utilisation
 
-By downloading and using SimpleText data, you agree to the terms of use. Any use of the data for any purpose other than academic research, would be in violation of the intended use of these data. 
+En téléchargeant et en utilisant les données SimpleText, vous acceptez les conditions d'utilisation. Toute utilisation des données à des fins autres que la recherche universitaire constituerait une violation de l'utilisation prévue de ces données. 
 
-Therefore, by downloading and using these data you give the following assurances with respect to the SimpleText data:
-1. You will not use nor permit others to use the data in the SimpleText datasets in any way except for classes and academic research.
-2. You will not at any time disclose, give, or transmit (in any manner or form or for any purpose) the data (or any portion thereof) to any location or person, including but not limiting to making the data available on the Internet, and copying the data onto any cloud-based storage system.
-3. You will not release nor permit others to release the dataset or any part of it to any person. 
+Par conséquent, en téléchargeant et en utilisant ces données, vous donnez les assurances suivantes concernant les données SimpleText :
+1. Vous n'utiliserez pas et ne permettrez pas à d'autres d'utiliser les données dans les ensembles de données SimpleText de quelque manière que ce soit, sauf pour les cours et la recherche universitaire.
+2. Vous ne divulguerez, ne donnerez ou ne transmettrez à aucun moment (de quelque manière ou forme que ce soit ou à quelque fin que ce soit) les données (ou toute partie de celles-ci) à tout endroit ou personne, y compris, mais sans s'y limiter, la mise à disposition des données sur Internet et la copie des données sur tout système de stockage basé sur le cloud.
+3. Vous ne libérerez pas et ne permettrez pas à d'autres de libérer l'ensemble des données ou toute partie de celles-ci à toute personne. 
 
-In case of violation of the conditions for access to the data for scientific purposes, this access may be withdrawn from the research entity and/or from the researcher. The research entity may also be liable to pay compensation for damages for third parties or asked to take disciplinary action against the offending researcher. 
+En cas de violation des conditions d'accès aux données à des fins scientifiques, cet accès peut être retiré à l'entité de recherche et/ou au chercheur. L'entité de recherche peut également être tenue de payer des dommages et intérêts à des tiers ou être invitée à prendre des mesures disciplinaires à l'encontre du chercheur fautif. 
 
-## How to Cite
-If you extend or use this work, please cite the [paper](https://doi.org/10.1007/978-3-031-13643-6_28) where it was introduced:
+## Comment citer
+Si vous étendez ou utilisez ce travail, veuillez citer l'[article] (https://doi.org/10.1007/978-3-031-13643-6_28) où il a été présenté :
 ```
 Liana Ermakova, Eric SanJuan, Jaap Kamps, Stéphane Huet, Irina Ovchinnikova, Diana Nurbakova, 
 Sílvia Araújo, Radia Hannachi, Elise Mathurin, and Patrice Bellot. 2022. 
@@ -52,6 +53,6 @@ In Experimental IR Meets Multilinguality, Multimodality, and Interaction: 13th I
 Conference of the CLEF Association, CLEF 2022, Bologna, Italy, September 5–8, 2022, Proceedings. 
 Springer-Verlag, Berlin, Heidelberg, 470–494. https://doi.org/10.1007/978-3-031-13643-6_28
 ```
-[Paper](https://doi.org/10.1007/978-3-031-13643-6_28)
+[Article](https://doi.org/10.1007/978-3-031-13643-6_28)
 
-[Dowload .BIB](../../BibTeX/ermakova_overview_2022.bib)
+[Télécharger .BIB](../../BibTeX/ermakova_overview_2022.bib)
